@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Style.css" />
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <main>
+
+        <section class="coluna-um"> <img src="./image/image.jpg" alt=""> </section>
+
+        <section class="coluna-dois" id="login">
+            <h2 id="recados">CRIE SUA CONTA</h2>
+
+            <div id="error"></div>
+            <div id="sucesso"></div>
+
+            <form class="formulario-cadastro" id="formulario-cadastro">
+
+
+
+                <label for="emaillogin" id="label-input-email">E-mail:</label>
+                <input type="email" class="input-cadastro" id="emaillogin" placeholder="E-mail" />
+
+                <label for="senhalogin" id="label-input-senha">Senha:</label>
+                <input type="password" class="input-cadastro" id="senhalogin" placeholder="Senha" />
+
+                <label for="repita-senha" id="label-input-cofirme-senha">Confirme a senha:</label>
+                <input type="password" class="input-cadastro" id="repita-senha" placeholder="Confirme sua senha">
+
+
+                <input type="submit" value="Criar Conta agora" class="btn-cadastro" id="btn-cadastro">
+
+
+            </form>
+        </section>
+
+        <script src="./js/cadastro.js"></script>
+    </main>
+</body>
+
+</html>

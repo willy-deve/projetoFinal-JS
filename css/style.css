@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(224, 222, 216);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.coluna-um {
+  align-self: center;
+  margin-left: auto;
+}
+
+img {
+  border-radius: 9px;
+}
+.coluna-dois {
+  align-self: center;
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+input.input-cadastro {
+  border-radius: 10px;
+  background-color: white;
+  transition: 1s all;
+}
+
+label {
+  font-size: 22px;
+}
+
+.coluna-um-login {
+  align-self: center;
+  margin-left: 50px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.coluna-dois-login {
+  align-self: center;
+  margin-right: auto;
+}
+
+#recados {
+  color: rgb(146, 109, 39);
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+#senhalogin,
+#emaillogin,
+#repita-senha {
+  display: block;
+  width: 500px;
+  padding: 17px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+#senhalogin:hover,
+#emaillogin:hover,
+#repita-senha:hover {
+  transform: scale(1.05);
+}
+
+#cadastro,
+#btn-login {
+  color: rgb(131, 99, 40);
+  margin-top: 10px;
+  display: flex;
+  font-size: 17px;
+  margin-left: 230px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+#cadastro:hover,
+#btn-login:hover {
+  color: rgb(161, 130, 72);
+  transform: scale(1.02);
+}
+
+#btn-cadastro {
+  display: flex;
+  background-color: rgb(131, 99, 40);
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 150px;
+  color: white;
+  width: 250px;
+  border-radius: 80px;
+  font-weight: bolder;
+  display: block;
+  border: 1px solid rgb(153, 120, 59);
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  transition: 1s all;
+}
+
+#btn-cadastro:hover {
+  background-color: rgb(141, 113, 60);
+  transform: scale(1.1);
+}
+
+#btn-login {
+  display: flex;
+  background-color: rgb(131, 99, 40);
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 150px;
+  color: white;
+  width: 250px;
+  border-radius: 80px;
+  font-weight: bolder;
+  display: block;
+  border: 1px solid rgb(153, 120, 59);
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  transition: 1s all;
+}
+
+#btn-login:hover {
+  background-color: rgb(141, 113, 60);
+  transform: scale(1.1);
+}
+
+/* PAGINA RECADOS */
+.cabecalho {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(109, 84, 39);
+}
+
+.versao {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: rgb(109, 84, 39);
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.input-recados {
+  background-color: white;
+  padding: 5px;
+  width: 200px;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.input-recados:hover {
+  transform: scale(1.06);
+}
+
+.label-id,
+.label-descricao,
+.label-detalhamento {
+  margin-left: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn-salvar-recados,
+#btn-atualizar,
+#btn-cancelar {
+  width: 65px;
+  height: 30px;
+  background-color: rgb(109, 84, 39);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+#btn-atualizar,
+#btn-cancelar {
+  display: none;
+}
+
+#btn-salvar-recados:hover,
+#btn-atualizar:hover,
+#btn-cancelar:hover {
+  transform: scale(1.05);
+  background-color: rgb(94, 71, 29);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 5px solid white;
+}
+
+th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 17px;
+  width: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tr.registros:hover {
+  background-color: #bbbb;
+}
+
+.btn-apagar {
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgb(109, 84, 39);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-editar {
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgb(109, 84, 39);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-apagar:hover,
+.btn-editar:hover {
+  transform: scale(1.05);
+}
+
+.header-recados {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: default;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+#sair {
+  border: none;
+  width: 45px;
+  height: 25px;
+  margin-left: 95%;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sair:hover {
+  transform: scale(1.05);
+}
+
+#error {
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#sucesso {
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}

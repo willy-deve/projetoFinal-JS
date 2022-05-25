@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div>
+            <p class="header-recados">Seja Bem-Vindo aos Recados</p>
+
+
+            <button id="sair">Sair</button>
+
+
+        </div>
+    </header>
+
+
+
+
+
+    <fieldset>
+
+        <form id="form-cadastro">
+
+
+            <label class="label-id" for=" input-id">ID: </label>
+            <input type="number" class="input-recados" name="codigo-id" id="input-id">
+
+            <label for="input-descricao" class="label-descricao">Descrição:</label>
+            <input type="text" class="input-recados" name="descricao-recado" id="input-descricao">
+
+            <label for="input-detalhamento" class="label-detalhamento">Detalhamento:</label>
+            <input type="text" class="input-recados" name="detalhamneto" id="input-detalhamento">
+
+            <input type="submit" value="Salvar" id="btn-salvar-recados">
+
+            <input type="button" value="Atualizar" id="btn-atualizar">
+            <input type="button" value="Cancelar" id="btn-cancelar">
+
+
+
+
+
+
+        </form>
+
+    </fieldset>
+
+
+    <table id="tabela-registros">
+        <tr>
+            <th>ID</th>
+            <th>Descrição</th>
+            <th>Detalhamento</th>
+            <th>Ação</th>
+        </tr>
+
+
+
+
+    </table>
+
+
+
+
+    <footer>
+        <div>
+            <p class="versao">Recados ver. 1.0.2 - Willy da Silva &copy;</p>
+        </div>
+    </footer>
+
+    <script src="./js/recados.js"></script>
+</body>
+
+</html>
